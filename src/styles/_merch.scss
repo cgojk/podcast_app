@@ -1,0 +1,90 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top:2em;
+}
+
+
+.genre-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+
+.genre-card:hover {
+  transform: scale(1.02);
+}
+
+.genre-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.genre-card h2 {
+  margin: 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn_store{
+  background-color: var(--brand-color);
+  color: #141413;
+  border-radius: 100px;
+  border: 1px solid #b8c04c;
+  padding: 1em 2em;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1em;
+  transition: all 0.1s ease-in-out;
+}
+// styling titles =====================================
+.genre-grid .title_section{
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+// styling the merch section
+
+.price_merch {
+  font-weight: 700;
+  color: var(--brand-color);
+  font-size:1.2rem;
+  
+}
+
+// merch detaisl styles=======================
+
+.merch-detail {
+  display: grid;
+
+ grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
+  gap: 2em;
+  margin-top: 2em;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.merch-image {
+  width: 100%;
+  height:100%;
+  max-width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.merch-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+ 
+}

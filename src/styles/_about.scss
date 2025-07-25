@@ -1,0 +1,35 @@
+/* About Team */
+.about_team {
+    
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.teams__container {
+  
+  background-color: var(--base-txt-color);
+}
+.aboutteam__card {
+  padding: 0 3rem;
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  border-radius: 2em;
+  backdrop-filter: blur(4px); /* Optional: adds a soft blur effect */
+}
+
+.aboutteam__image img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+}
+
+.aboutteam__card-text,
+.aboutteam__card-title {
+  color: black; /* Or any dark contrasting color */
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color:white;
+}
