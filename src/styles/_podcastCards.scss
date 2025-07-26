@@ -188,18 +188,18 @@
     font-weight: 700;
 
 }
-// i[class*='genre-tag-'] {
-//     padding: 7px 14px;
-// }
+
 // ================podcasts details styles =======================================
 .podcast-detail {
     display: flex;
-  
-    align-items: center;
+    //   align-items: center;
     padding: 20px;
-
     align-items: flex-start;
     gap: 20px;
+    border:2px solid var(--brand-color);
+    background-color: var(--base-bg-color);
+    margin-top:3em;
+    margin-bottom:3em;
 }  
 
 .podcast-image {
